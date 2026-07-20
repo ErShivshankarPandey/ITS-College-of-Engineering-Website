@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Login | ITS COLLEGE OF ENGINEERING</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><h2>ITS COLLEGE OF ENGINEERING</h2></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Student Login</a>
+    <a href="admin-login.html">Admin Login</a>
+    <a href="select-course.html">Register</a>
+  </nav>
+</header>
+
+<section class="form-section">
+  <div class="form-card">
+    <h2>Student Login</h2>
+    <p class="form-sub">Sign in with your registration ID to access your dashboard.</p>
+    <p class="form-message"></p>
+
+    <form data-demo-form data-success="Login successful. Redirecting to your dashboard.">
+      <div class="field">
+        <label for="reg-id">Registration ID</label>
+        <input type="text" id="reg-id" name="reg-id" placeholder="e.g. ABC2026-0143" required>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn-submit">Log In</button>
+    </form>
+
+    <p class="form-foot">Not registered yet? <a href="select-course.html">Apply now</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="year">2026</span> ITS College of Engineering</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
