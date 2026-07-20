@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login | ITS COLLEGE OF ENGINEERING</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><h2>ITS COLLEGE OF ENGINEERING</h2></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Student Login</a>
+    <a href="admin-login.html">Admin Login</a>
+    <a href="select-course.html">Register</a>
+  </nav>
+</header>
+
+<section class="form-section">
+  <div class="form-card">
+    <h2>Admin Login</h2>
+    <p class="form-sub">Restricted access for college staff and administrators only.</p>
+    <p class="form-message"></p>
+
+    <form data-demo-form data-success="Login successful. Redirecting to the admin panel.">
+      <div class="field">
+        <label for="admin-id">Admin ID</label>
+        <input type="text" id="admin-id" name="admin-id" required>
+      </div>
+      <div class="field">
+        <label for="admin-password">Password</label>
+        <input type="password" id="admin-password" name="admin-password" required>
+      </div>
+      <button type="submit" class="btn-submit">Log In</button>
+    </form>
+
+    <p class="form-foot">Looking for the student portal? <a href="login.html">Student Login</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="year">2026</span> ITS College of Engineering</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
